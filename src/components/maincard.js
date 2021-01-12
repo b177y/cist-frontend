@@ -46,6 +46,9 @@ function CardHeader(props){
         } else if (formNumber < 0 || formNumber > 9999){
             console.log("Num out of range");
             props.setErr("Number is out of range.");
+        } else if (formNumber.length > 4){
+            console.log("form number is longer than 4 but under 10000");
+            props.setErr("What are you doing? prepending 0s??");
         } else {
             var lines = getLines(formNumber);
             console.log(lines);

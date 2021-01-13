@@ -5,8 +5,9 @@
     padding: 14px 80px 18px 36px;
     margin: 0 auto;
     float: none;
+    display: flex;
 }
 
-html, body, #app, #app>div {
+html, body, #root, #app, #app>div {
   height: 100%
 }

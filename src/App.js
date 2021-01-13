@@ -4,7 +4,7 @@ import MainCard from './components/maincard';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" id="app">
         <MainCard />
     </div>
   );
